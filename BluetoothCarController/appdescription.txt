@@ -1,0 +1,27 @@
+////////////////////////////////////
+// BLUETOOTH CARKIT CONTROLLER
+// Raitokomniak 6/10/2016
+//
+// Connects Android device with Arduino Bluetooth module
+// and sends command letters as bytes to Arduino Serial monitor.
+//
+// This application is also used to handle the carkit's state
+// machine and change control from BT to light sensor or
+// ultra sound use.
+//
+// COMMANDS:
+// Light sensor = -
+// Ultrasound = I
+//
+// Forward = F
+// Backward = B
+// Left = L
+// Right = R
+//
+// Backwards + Left = X
+// Backwards + Right = Z
+//
+// Speed range 0 - 9
+//
+//
+///////////////////////////////////
